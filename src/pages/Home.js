@@ -1,9 +1,7 @@
-import { useQuery } from '@apollo/client';
 import { useState } from 'react';
 import Create from '../components/Create';
 import EditPost from '../components/EditPost';
 import Posts from '../components/Posts';
-import { GET_ALL_POSTS } from '../graph-ql/queries';
 
 export default function Home() {
 
